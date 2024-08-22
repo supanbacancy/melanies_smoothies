@@ -1,5 +1,5 @@
 # requirements.txt
 snowflake-snowpark-python
-streamlit
+streamlit=1.31.1
 requests
 pandas
