@@ -25,7 +25,7 @@ if my_dataframe:
            st.success('Order Successfully Completed', icon='👍')
            st.experimental_rerun()
       except:
-          st.write("Something went wrong.")0
+          st.write("Something went wrong.")
 else:
     st.success("There is no pending orders right now", icon='👍')
         
