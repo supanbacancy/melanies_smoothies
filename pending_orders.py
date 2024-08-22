@@ -24,7 +24,7 @@ if my_dataframe:
                         )
            st.success('Order Successfully Completed', icon='👍')
            st.experimental_rerun()
-      except exception as exec:
+      except Exception as exec:
           st.write(exec)
           st.write("Something went wrong.")
 else:
